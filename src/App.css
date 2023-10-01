@@ -1,38 +1,50 @@
 .App {
   text-align: center;
+ 
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.bg-home-overlay{
+  transform: translatey(40%);
 }
+ .bg-home-overlay-text-h1{
+  font-size: 70px;
+  font-weight: 190;
+  color: crimson;
+}
+.bg-home-overlay-text{
+  color: rgb(0, 0, 0);
+}
+/* .card-global{
+ 
+
+} */
+.header{
+  border-radius: none ;
+}
+.card-slid{
+  border-radius: none !important;
+ 
+}
+
 
 @media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+  .slid {
+    animation: slide-home infinite 20s linear;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
 
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@keyframes slide-home {
+  0%{
+    transform: translatey(800px);
   }
-  to {
-    transform: rotate(360deg);
+  100% {
+    transform: translatey(50px);
   }
+}
+/* tache individuel*/
+.g-task-one-individual{
+background-color: white;
+box-shadow: 0 1px ;
 }
