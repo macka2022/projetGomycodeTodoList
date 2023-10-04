@@ -4,15 +4,23 @@
 }
 
 .bg-home-overlay{
-  transform: translatey(40%);
+  
 }
  .bg-home-overlay-text-h1{
-  font-size: 70px;
-  font-weight: 190;
-  color: crimson;
+  font-size: 45px;
+  font-weight: 110;
+  color: black;
+  
+  
+ 
+
 }
 .bg-home-overlay-text{
   color: rgb(0, 0, 0);
+ /* margin-left: "90%";*/
+  transform: translate(100%,100%);
+  margin-left: 10%;
+  width: 40%;
 }
 /* .card-global{
  
@@ -47,6 +55,7 @@
 .g-task-one-individual{
 background-color: white;
 box-shadow: 0 1px 9px 0 rgb(0 0 0/14%) ;
+
 }
 .task-one-individual-footer{
   background-color: white;
@@ -55,3 +64,38 @@ box-shadow: 0 1px 9px 0 rgb(0 0 0/14%) ;
   border-right: none;
   border-left: none;
 }
+/* Encours*/
+
+.encours-general{
+  width: 13px;
+  height: 13px;
+  border-radius: 50%;
+  border-top: 3px solid blue;
+  border-left: 3px solid blue;
+  border-bottom: 3px solid blue;
+  animation: slide-encours infinite 1.5s linear;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .anim-encours {
+    
+  }
+}
+@keyframes slide-encours {
+  0%{
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+
+@keyframes slideInFromRight {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 65%;
+  }
+}
+

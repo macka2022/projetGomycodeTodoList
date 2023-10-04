@@ -1,7 +1,22 @@
 {
-    "data":[
-       {"id":1, "titre":"Faire de cours", "description":"je fais mes courses pendant un long moment ", "etat":0},
-       {"id":2, "titre":"Faire de cours", "description":"je fais mes courses pendant un long moment ", "etat":0},
-       {"id":3, "titre":"Faire de cours", "description":"je fais mes courses pendant un long moment ", "etat":0}
-    ]  
+  "data": [
+    {
+      "titre": "Aller au marché",
+      "description": "acheter des fournitures scolaires des fruits une valise et autre",
+      "etat": "active",
+      "id": 1
+    },
+    {
+      "titre": "Reviser les leçons",
+      "description": "reviser toutes les matieres ",
+      "etat": "active",
+      "id": 2
+    },
+    {
+      "titre": "Dormir ",
+      "description": "Dormir pendant un long moment",
+      "etat": "active",
+      "id": 3
+    }
+  ]
 }
