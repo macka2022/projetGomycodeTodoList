@@ -3,7 +3,7 @@
     {
       "titre": "Aller au marché",
       "description": "acheter des fournitures scolaires des fruits une valise et autre",
-      "etat": "active",
+      "etat": "nonactive",
       "id": 1
     },
     {
@@ -17,6 +17,24 @@
       "description": "Dormir pendant un long moment",
       "etat": "active",
       "id": 3
+    },
+    {
+      "titre": "Macka",
+      "description": "ammmm",
+      "etat": "active",
+      "id": 4
+    },
+    {
+      "titre": "Macka 1",
+      "description": "Selectionner",
+      "etat": "active",
+      "id": 5
+    },
+    {
+      "titre": "ddd",
+      "description": "azer",
+      "etat": "nonactive",
+      "id": 6
     }
   ]
 }

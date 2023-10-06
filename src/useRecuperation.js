@@ -10,8 +10,7 @@ const useRecuperation = (url) => {
         .then(response => {
            setDonnee(response.data )
             setIsLoading(false)
-            console.log(response)
-            console.log("hbfbfn")
+           
         })
         .catch(err =>{
            console.log("Erreur ce produit"+err)

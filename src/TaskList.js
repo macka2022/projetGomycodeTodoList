@@ -1,5 +1,5 @@
 import Card from 'react-bootstrap/Card';
-import CardGroup from 'react-bootstrap/CardGroup';
+import Table from 'react-bootstrap/Table';
 import useRecuperation from './useRecuperation';
 import axios from 'axios';
 import Task from './Task';
@@ -36,8 +36,19 @@ const TaskList = () => {
             });
         }
     return (  
-         
-    <CardGroup >
+      <Table striped='columns'>
+      <thead>
+        <tr>
+          <th># INDEX</th>
+          <th>Titre</th>
+          <th>Description</th>
+          <th>Etat</th>
+          <th style={{width:'550px'}}>Action</th>
+          
+        </tr>
+      </thead>
+      <tbody>  
+    
     {erreur && <Card.Footer>Une erreur de serveur</Card.Footer>}
       {isLoading && <Card.Footer>Les Donnes est en telechargement</Card.Footer>}
         {
@@ -48,8 +59,10 @@ const TaskList = () => {
            
     ))
     }
-    </CardGroup>
+    </tbody>
+</Table>
     );
 }
  
 export default TaskList;
+
